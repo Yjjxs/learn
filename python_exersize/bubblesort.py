@@ -22,7 +22,7 @@ n = input('Please enter the list number:') #[64, 34, 25, 12, 22, 11, 90]
 #if n.isidigit:
 try:
     m = int(n)
-#    label.beg1
+
     for x in range(m):    
 
         num = input('Please enter the number:')
@@ -36,7 +36,7 @@ try:
 #        except ValueError as e:
         except ValueError:
             print("你输入了非法字符")
-#            goto.beg1
+
 #            return None, e
 #except ValueError as r:
 except ValueError:
